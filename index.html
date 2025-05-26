@@ -1,94 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Официальная страница Ибратжона Алиева — учёного, писателя и изобретателя." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ибратжон Алиев — Учёный, Писатель, Инноватор</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #222;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #333;
     }
-    header {
-      background: #222;
-      color: #fff;
-      padding: 2rem;
+    header, footer {
+      background-color: #0a192f;
+      color: white;
       text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0.5rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #64ffda;
+      text-decoration: none;
     }
     section {
-      max-width: 960px;
+      max-width: 1000px;
       margin: 2rem auto;
       padding: 1rem;
-      background: #fff;
-      border-radius: 8px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
-    h1, h2 {
-      color: #222;
+    h2 {
+      color: #0a192f;
     }
-    .section-title {
-      margin-top: 0;
+    ul {
+      line-height: 1.6;
     }
-    .contact, .links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
+    .services li {
+      margin-bottom: 1rem;
     }
-    .contact div, .links a {
-      flex: 1;
-      min-width: 220px;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #222;
+    .link-buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1rem;
+      background-color: #0a192f;
       color: #fff;
-      font-size: 0.9rem;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .link-buttons a:hover {
+      background-color: #112240;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Ибратжон Алиев</h1>
-    <p>Учёный-ядерщик, писатель-фантаст, изобретатель, основатель Electron Laboratory LLC</p>
+    <p>Учёный-ядерщик, писатель-фантаст, создатель «Electron Laboratory»</p>
+    <nav>
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Портфолио</a>
+      <a href="#books">Книги</a>
+      <a href="#contact">Контакты</a>
+    </nav>
   </header>
-  <section>
-    <h2 class="section-title">Обо мне</h2>
-    <p>Автор более 120 книг, включая эпопею "Конструктор миров", 10 монографий, учебников, а также сотен научных статей. Основатель научной лаборатории и издатель научного журнала "Все науки". Занимаюсь исследованиями в области ядерной физики, математического моделирования и созданием 3D-контента, фильмов и образовательных программ.</p>
-  </section>
-  <section>
-    <h2 class="section-title">Услуги</h2>
-    <ul>
-      <li>Написание научных статей и рецензий</li>
-      <li>Создание видео и документальных фильмов</li>
-      <li>Разработка 3D-моделей и анимации</li>
-      <li>Образовательные курсы и наставничество</li>
-      <li>Консультации по ядерной физике и технологиям</li>
+
+  <section id="services">
+    <h2>Услуги и цены</h2>
+    <ul class="services">
+      <li><strong>Научные консультации по ядерной физике, физике частиц:</strong> от $50/час</li>
+      <li><strong>Подготовка и редактирование научных статей:</strong> от $100/статья</li>
+      <li><strong>Создание и анимация 3D-моделей (Blender, AutoCAD):</strong> от $30/проект</li>
+      <li><strong>Разработка образовательного видеоконтента:</strong> от $80/видео</li>
+      <li><strong>Создание учебных пособий и микро-курсов:</strong> от $150/курс</li>
+      <li><strong>Математическое моделирование и расчёты:</strong> от $60/задача</li>
+      <li><strong>Работа с языками программирования (Python, C++, Java):</strong> от $50/час</li>
     </ul>
   </section>
-  <section>
-    <h2 class="section-title">Контакты</h2>
-    <div class="contact">
-      <div>Email: ibratjonaliev@example.com</div>
-      <div>GitHub: <a href="https://github.com/IbratjonAliyev" target="_blank">@IbratjonAliyev</a></div>
-      <div>Kolabtree: <a href="https://www.kolabtree.com/find-an-expert/ibratjon-a" target="_blank">Профиль эксперта</a></div>
+
+  <section id="portfolio">
+    <h2>Портфолио и ссылки</h2>
+    <div class="link-buttons">
+      <a href="https://www.kolabtree.com/find-an-expert/ibratjon-a" target="_blank">Kolabtree</a>
+      <a href="https://www.youtube.com/@Nuclear_Academic" target="_blank">YouTube</a>
+      <a href="https://www.instagram.com/electron_laboratory/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/ElectronLaboratoryofficial" target="_blank">Facebook</a>
     </div>
   </section>
-  <section>
-    <h2 class="section-title">Ссылки</h2>
-    <div class="links">
-      <a href="https://www.youtube.com/@yourchannel" target="_blank">YouTube-канал</a>
-      <a href="https://ridero.ru/author/ibratjon_aliev/" target="_blank">Книги на Ridero</a>
-      <a href="https://www.litres.ru/ibratjon-aliev/" target="_blank">Книги на ЛитРес</a>
-      <a href="https://www.amazon.com/author/ibratjonaliev" target="_blank">Книги на Amazon</a>
-    </div>
+
+  <section id="books">
+    <h2>Мои книги</h2>
+    <ul>
+      <li><a href="https://ridero.ru/author/aliev_ibratzhon_khatamovich_znoq/" target="_blank">Книги на русском (Ridero)</a></li>
+      <li><a href="https://ridero.ru/author/aliyev_ibratjon_xatamovich_vnsyl/" target="_blank">Книги на английском (Ridero)</a></li>
+    </ul>
   </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>По всем вопросам вы можете связаться по email: <strong>electronlabuz@gmail.com</strong></p>
+  </section>
+
   <footer>
-    &copy; 2025 Ибратжон Алиев. Все права защищены.
+    <p>&copy; 2025 Ибратжон Алиев. Все права защищены.</p>
   </footer>
 </body>
 </html>
